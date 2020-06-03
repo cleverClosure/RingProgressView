@@ -16,7 +16,7 @@
 		971C04202487A6460004E3CC /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C041F2487A6460004E3CC /* RingView.swift */; };
 		971C04222487A8720004E3CC /* RingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C04212487A8720004E3CC /* RingSection.swift */; };
 		971C04242487A8CE0004E3CC /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C04232487A8CE0004E3CC /* SectionView.swift */; };
-		971C04262487AA720004E3CC /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C04252487AA720004E3CC /* DefaultValues.swift */; };
+		97F23B092487B24400C3DFDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F23B082487B24400C3DFDD /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		971C041F2487A6460004E3CC /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		971C04212487A8720004E3CC /* RingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSection.swift; sourceTree = "<group>"; };
 		971C04232487A8CE0004E3CC /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
-		971C04252487AA720004E3CC /* DefaultValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultValues.swift; sourceTree = "<group>"; };
+		97F23B082487B24400C3DFDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 			children = (
 				971C040B2487A59F0004E3CC /* AppDelegate.swift */,
 				971C040D2487A59F0004E3CC /* SceneDelegate.swift */,
+				97F23B082487B24400C3DFDD /* ContentView.swift */,
 				971C040F2487A59F0004E3CC /* RingProgressView.swift */,
 				971C041F2487A6460004E3CC /* RingView.swift */,
-				971C04252487AA720004E3CC /* DefaultValues.swift */,
 				971C04212487A8720004E3CC /* RingSection.swift */,
 				971C04232487A8CE0004E3CC /* SectionView.swift */,
 				971C04112487A5A00004E3CC /* Assets.xcassets */,
@@ -160,8 +160,8 @@
 			files = (
 				971C04222487A8720004E3CC /* RingSection.swift in Sources */,
 				971C04202487A6460004E3CC /* RingView.swift in Sources */,
+				97F23B092487B24400C3DFDD /* ContentView.swift in Sources */,
 				971C04242487A8CE0004E3CC /* SectionView.swift in Sources */,
-				971C04262487AA720004E3CC /* DefaultValues.swift in Sources */,
 				971C040C2487A59F0004E3CC /* AppDelegate.swift in Sources */,
 				971C040E2487A59F0004E3CC /* SceneDelegate.swift in Sources */,
 				971C04102487A59F0004E3CC /* RingProgressView.swift in Sources */,
