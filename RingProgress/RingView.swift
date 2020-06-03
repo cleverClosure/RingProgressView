@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RingView.swift
 //  RingProgress
 //
 //  Created by Tim Isaev on 03.06.2020.
@@ -8,14 +8,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RingView: View {
+    
     var body: some View {
-        Text("Hello, World!")
+        Circle()
     }
+        
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RingView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RingView()
     }
 }

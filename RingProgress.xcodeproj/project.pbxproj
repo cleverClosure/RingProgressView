@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		971C040C2487A59F0004E3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C040B2487A59F0004E3CC /* AppDelegate.swift */; };
 		971C040E2487A59F0004E3CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C040D2487A59F0004E3CC /* SceneDelegate.swift */; };
-		971C04102487A59F0004E3CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C040F2487A59F0004E3CC /* ContentView.swift */; };
+		971C04102487A59F0004E3CC /* RingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C040F2487A59F0004E3CC /* RingProgressView.swift */; };
 		971C04122487A5A00004E3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971C04112487A5A00004E3CC /* Assets.xcassets */; };
 		971C04152487A5A00004E3CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971C04142487A5A00004E3CC /* Preview Assets.xcassets */; };
 		971C04182487A5A00004E3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971C04162487A5A00004E3CC /* LaunchScreen.storyboard */; };
+		971C04202487A6460004E3CC /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C041F2487A6460004E3CC /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		971C04082487A59F0004E3CC /* RingProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		971C040B2487A59F0004E3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		971C040D2487A59F0004E3CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		971C040F2487A59F0004E3CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		971C040F2487A59F0004E3CC /* RingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressView.swift; sourceTree = "<group>"; };
 		971C04112487A5A00004E3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		971C04142487A5A00004E3CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		971C04172487A5A00004E3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		971C04192487A5A00004E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971C041F2487A6460004E3CC /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				971C040B2487A59F0004E3CC /* AppDelegate.swift */,
 				971C040D2487A59F0004E3CC /* SceneDelegate.swift */,
-				971C040F2487A59F0004E3CC /* ContentView.swift */,
+				971C040F2487A59F0004E3CC /* RingProgressView.swift */,
+				971C041F2487A6460004E3CC /* RingView.swift */,
 				971C04112487A5A00004E3CC /* Assets.xcassets */,
 				971C04162487A5A00004E3CC /* LaunchScreen.storyboard */,
 				971C04192487A5A00004E3CC /* Info.plist */,
@@ -146,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971C04202487A6460004E3CC /* RingView.swift in Sources */,
 				971C040C2487A59F0004E3CC /* AppDelegate.swift in Sources */,
 				971C040E2487A59F0004E3CC /* SceneDelegate.swift in Sources */,
-				971C04102487A59F0004E3CC /* ContentView.swift in Sources */,
+				971C04102487A59F0004E3CC /* RingProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
