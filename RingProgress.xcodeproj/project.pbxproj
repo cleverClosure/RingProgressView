@@ -14,6 +14,9 @@
 		971C04152487A5A00004E3CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971C04142487A5A00004E3CC /* Preview Assets.xcassets */; };
 		971C04182487A5A00004E3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971C04162487A5A00004E3CC /* LaunchScreen.storyboard */; };
 		971C04202487A6460004E3CC /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C041F2487A6460004E3CC /* RingView.swift */; };
+		971C04222487A8720004E3CC /* RingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C04212487A8720004E3CC /* RingSection.swift */; };
+		971C04242487A8CE0004E3CC /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C04232487A8CE0004E3CC /* SectionView.swift */; };
+		971C04262487AA720004E3CC /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C04252487AA720004E3CC /* DefaultValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		971C04172487A5A00004E3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		971C04192487A5A00004E3CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971C041F2487A6460004E3CC /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		971C04212487A8720004E3CC /* RingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSection.swift; sourceTree = "<group>"; };
+		971C04232487A8CE0004E3CC /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		971C04252487AA720004E3CC /* DefaultValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				971C040D2487A59F0004E3CC /* SceneDelegate.swift */,
 				971C040F2487A59F0004E3CC /* RingProgressView.swift */,
 				971C041F2487A6460004E3CC /* RingView.swift */,
+				971C04252487AA720004E3CC /* DefaultValues.swift */,
+				971C04212487A8720004E3CC /* RingSection.swift */,
+				971C04232487A8CE0004E3CC /* SectionView.swift */,
 				971C04112487A5A00004E3CC /* Assets.xcassets */,
 				971C04162487A5A00004E3CC /* LaunchScreen.storyboard */,
 				971C04192487A5A00004E3CC /* Info.plist */,
@@ -149,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971C04222487A8720004E3CC /* RingSection.swift in Sources */,
 				971C04202487A6460004E3CC /* RingView.swift in Sources */,
+				971C04242487A8CE0004E3CC /* SectionView.swift in Sources */,
+				971C04262487AA720004E3CC /* DefaultValues.swift in Sources */,
 				971C040C2487A59F0004E3CC /* AppDelegate.swift in Sources */,
 				971C040E2487A59F0004E3CC /* SceneDelegate.swift in Sources */,
 				971C04102487A59F0004E3CC /* RingProgressView.swift in Sources */,
