@@ -15,8 +15,12 @@ struct RingProgressView: View {
     let thickness: CGFloat = 60
     let ringBackground = #colorLiteral(red: 0.9526779056, green: 0.9767469764, blue: 1, alpha: 1)
     let sections = [RingSection(start: 0, end: 0.2, color: #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)), RingSection(start: 0.2, end: 0.5, color: #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1))]
+    @State var showRing: Bool = false
+    private let roundDiff: CGFloat = 0.032
     
     var body: some View {
+        let maskStart: CGFloat = sections.first?.start ?? 0
+        let maskEnd: CGFloat = showRing ? sections.last?.end ?? 0 : 0
         return ZStack {
             Circle()
                 .foregroundColor(Color(backgroundColor))
@@ -25,13 +29,21 @@ struct RingProgressView: View {
             Circle()
                 .stroke(Color(ringBackground), style:  StrokeStyle(lineWidth: thickness))
                 .frame(width: size, height: size)
-            RingView(sections: sections)
+            RingView(sections: sections, thickness: thickness, size: size)
+                .compositingGroup()
+                .mask(
+                    Circle()
+                        .trim(from: maskStart + roundDiff, to: true ? (maskEnd - roundDiff) : maskStart)
+                        .stroke(style: StrokeStyle(lineWidth: thickness, lineCap: .round))
+                        .frame(width: size, height: size)
+            )
+                .compositingGroup()
         }
     }
 }
 
 struct RingProgressView_Previews: PreviewProvider {
     static var previews: some View {
-        RingProgressView()
+        RingProgressView(showRing: true)
     }
 }

@@ -11,8 +11,9 @@ import SwiftUI
 struct RingView: View {
     
     var sections: [RingSection]
-    let thickness: CGFloat = DefaultRingValues.thickness
-    let size: CGFloat = DefaultRingValues.size
+    var thickness: CGFloat
+    var size: CGFloat
+    var show: Bool = false
     
     var body: some View {
         ZStack {
@@ -22,11 +23,11 @@ struct RingView: View {
             }
         }
     }
-        
+    
 }
 
 struct RingView_Previews: PreviewProvider {
     static var previews: some View {
-        RingView(sections: [RingSection(start: 0, end: 0.2, color: .red), RingSection(start: 0.2, end: 0.5, color: .green)])
+        RingView(sections: [RingSection(start: 0, end: 0.2, color: .red), RingSection(start: 0.2, end: 0.5, color: .green)], thickness: 60, size: 300)
     }
 }
